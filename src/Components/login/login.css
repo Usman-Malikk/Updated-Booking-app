@@ -1,0 +1,46 @@
+
+.logcenter
+{
+    /* width: 1300px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.logcenter form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+.logcenter form label{
+font-weight: bold;
+}
+.logcenter form input{
+border: 1px solid #b9c1c3;
+padding: 12px 10px;
+border-radius: 4px ;
+width: 100%;
+
+}
+h1
+{
+
+}
+.logcenter form input:focus{
+    border: 2px solid #006CE4;
+}
+.logcenter form button
+{
+    width: 106%;
+    background-color: #006CE4;
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 4px ;
+    font-size: 20px;
+}

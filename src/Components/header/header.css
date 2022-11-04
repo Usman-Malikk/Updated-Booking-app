@@ -1,0 +1,157 @@
+.header
+{
+    background-color:  #013074;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.headerlist
+{
+    width: 1200px;
+    display: flex;
+    justify-content: start;
+gap: 20px
+}
+span{
+    color: white;
+}
+.headerliitems
+{
+    transition: 0.1 ease-in-out;
+    padding: 20px;
+    border-radius: 30px;
+cursor: pointer;
+    /* padding-right: 30px; */
+}
+.headerliitems:hover
+{
+background-color: rgba(255, 255, 255, 0.209);
+}
+.active
+{
+    border: 1px solid white;
+border-radius: 30px;
+background-color: rgba(255, 255, 255, 0.209);
+
+
+}
+.svg-inline--fa
+{
+    color: white;
+    margin-right: 10px;
+}
+.description
+{
+padding: 30px 0px;
+    width: 1200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+.descbutton
+{
+    color: white;
+    background-color: #4874AA;
+    padding: 10px;
+    width: fit-content;
+    border: none;   
+}
+.description p
+{
+    font-weight: 400;
+}
+
+.Searchbar
+{
+    background-color: white;
+/* width: auto; */
+
+    position: absolute;
+    bottom: -50px;
+    display: flex;
+}
+.Searchbar .svg-inline--fa 
+{
+    color: black;
+}
+
+input{
+    border: none;
+    outline: none;
+    width: 350px;
+}
+.yellobg
+{
+    border: 3px solid orange;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.yellobg p
+{
+    color: black;
+}
+.people
+{
+    width: 350px;
+    position: relative;
+
+
+}
+.search
+{
+background-color: #013074;
+color: white;
+padding: 20px 30px;
+}
+
+.setpeople
+{
+    position: absolute;
+    bottom: -190px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+h4{
+    color: black;
+}
+
+.setpeps
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.buttonset
+{
+display: flex;
+gap: 20px;
+}
+
+.set
+{
+    padding: 8px 15px;
+    background-color: white;
+    border: 1px  solid #013074 ;
+}
+.peeps
+{
+    display: flex;
+    width: 100%;
+}
+.setpeople
+{
+    z-index: 2;
+    background-color: white;
+}

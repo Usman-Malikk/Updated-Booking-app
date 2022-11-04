@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar
+{
+    background-color: #013074;
+    width: 100%;
+display: flex;
+justify-content: center;
+    color: white;
+    padding: 20px 0px ;
+}
+.navcon
+{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navitem
+{
+display: flex;
+gap: 20px;
+}
+.navbutton
+
+{
+    background-color: white;
+    color:#013074;
+    padding: 10px;
+    border: none;
+}

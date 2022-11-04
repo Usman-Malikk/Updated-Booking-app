@@ -1,0 +1,15 @@
+.Searchhotels
+{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.seachandhotel
+{
+    width: 1230px;
+    display: flex;
+    gap: 30px;
+    position: relative;
+}

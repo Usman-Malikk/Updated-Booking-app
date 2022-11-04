@@ -1,0 +1,67 @@
+.searchbari
+{
+    position: sticky;
+    top: 20px;
+    padding: 20px;
+    background-color: #fbae24;
+  height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.searchbari h2{
+    color: #013074;
+}
+.searchbari form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.searchbari form input
+{
+padding: 7px;
+}
+.searchbari form label
+{
+   
+   
+    font-size: 20px;
+ /* font-weight: 700; */
+ margin: 10px 0px;
+}
+.alloption
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+.optionsss
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.optionsss input
+{
+    width: 60px;
+  border-radius: 4px;
+    padding: 5px !important;
+}
+.optionsss label{
+    font-size: 16px !important;
+  font-weight: 400 !important;
+    color: #013074;
+}
+
+.formbtn
+{
+    background-color: #004174;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+}
