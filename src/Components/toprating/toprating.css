@@ -1,0 +1,46 @@
+.Toprate
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.tophotels
+{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.tophotelitems
+{
+    display: flex;
+    gap: 20px;
+}
+.Hoteltop img
+{
+width: 300px;
+border-top-right-radius:20px ;
+}
+.Hotdesctop
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Rating
+{
+display: flex;
+gap: 20px;
+}
+.Rating span{
+    color: black;
+}
+.Rating span:first-child
+{
+    background-color: #013074;
+    border-radius: 5px;
+    color: orange;
+    padding: 5px;
+}

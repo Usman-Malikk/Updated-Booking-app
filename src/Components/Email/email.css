@@ -1,0 +1,44 @@
+.Emailbox
+{
+    width: 100%;
+    background-color: #013074;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+.mail{
+display: flex;
+flex-direction: column;
+color: white;
+gap:20px
+}
+.subs
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.mailtxt
+{
+    background-color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.subs button
+{
+    background-color: #336E92;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.pp
+{
+    color: orange;
+    font-weight: bolder;
+}

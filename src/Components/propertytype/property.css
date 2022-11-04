@@ -1,0 +1,55 @@
+.propertlist
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.propertyitems
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 1200px;
+    overflow: hidden;
+}
+.listss
+{
+    display: flex;
+    gap: 20px;
+}
+.property
+{
+    display: flex;
+    flex-direction: column;
+   
+}
+.property img{
+    width: 250px;
+    border-radius: 10px;
+}
+.fontt
+{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    cursor: pointer;
+}
+.arrow span
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+}
+.listss
+{
+    position: relative;
+}
+.arrow span:first-child
+{
+right: 0px;
+}
+.arrow span:last-child
+{
+    left: 20px;
+}

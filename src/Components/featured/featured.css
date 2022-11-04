@@ -1,0 +1,40 @@
+.FItems
+{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    z-index: 1;
+}
+.Featureditems
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.Featurecont
+{
+    width: 1200px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.Featureditems img
+{
+    width: 400px;
+    border-top-right-radius: 20px;
+}
+.textdesc
+{
+    position: absolute;
+    bottom: 30px;
+    color: white;
+    padding: 10px;
+
+    background-color: black;
+    
+}

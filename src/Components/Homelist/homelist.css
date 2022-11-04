@@ -1,0 +1,91 @@
+.homelist
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.hotelli
+
+{
+    padding: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.261);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.imghotel
+{
+    width: 200px;
+}
+.bgimg
+{
+    width: 220px ;
+    background:url(https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat center;
+    background-size: cover;
+    /* margin-right: 20px; */
+    height: 100%;
+}
+.hoteldesc
+{
+display: flex;
+flex-direction: column;
+gap:5px;
+/* margin-right: 20px; */
+}
+.hoteldesc h2
+{
+    color: #2773b0
+}
+.bgg{
+    background-color: green;
+    width: fit-content;
+    padding: 2px;
+    border-radius: 5px;
+}
+.gcolor
+{
+    color: green;
+    font-size: 14px;
+}
+.moredesc
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items:baseline; */
+    gap: 5px;
+}
+.adesc
+{
+    display: flex;
+    justify-content: space-between;
+}
+.bgb
+{
+    background-color: #023074;
+    align-items: center;
+    display: flex;
+    padding: 2px 7px; 
+}
+.aa
+{
+    color: white;
+    background-color: #2773b0;
+    border: none;
+    width: 100%;
+    text-align: center;
+    padding: 13px 24px;
+    border-radius: 5px;
+}
+.price
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-end;
+}
+.price p
+{
+    font-size: 13px;
+}
